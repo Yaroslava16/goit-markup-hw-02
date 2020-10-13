@@ -1,12 +1,15 @@
-/* цвет основного текста #212121 */
-/* вторичный цвет текста #757575 */
-/* белый #FFFFFF */
-/* акцент #2196F3 */
-/* акцент-2 #F5F4FA */
-/* вторичный цвет фона #2F303A */
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--secondary-accent: #F5F4FA;
+--white-color: #FFFFFF;
+--secondary-bgc: #2F303A;
+}
+
 body {
-    background-color: #fff;
-    color: #757575;
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
 }
 
 ul {
@@ -16,36 +19,47 @@ ul {
 a {
     text-decoration: none;  
 }
+
+.invisible {
+    display: none;
+}
+
 .logo {
-    color: #212121;
+    color: var(--title-text-color);
     text-decoration: none;
 }
 
 .logo:hover {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
-.part_logo {
-    color: #2196F3;
+.part-logo {
+    color: var(--accent-color);
 }
 
 /* site-nav */
 
-.site-nav a {
-    color: #212121;
+.site-nav a,
+.auth-nav a,
+.list a {
+    color: var(--title-text-color);
 }
 
 .site-nav a:hover, 
 .site-nav a:focus {
-    color: #2196F3;
-}
-
-/* auth-nav */
-.auth-nav a {
-    color: #212121;
+    color: var(--accent-color);
 }
 
 .auth-nav a:hover, 
 .auth-nav a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
+}
+
+/* section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+.hero-title {
+    color: var(--white-color);
 }
