@@ -65,6 +65,7 @@ a {
 
 .btn-group button {
     color: var(--title-text-color);
+    background-color: var(--secondary-accent);
 }
 
 .btn-group button:hover {
