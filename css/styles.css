@@ -93,3 +93,16 @@ footer {
 .footer-logo {
     color: var(--white-color);
 }
+
+.command {
+    background-color: var(--secondary-accent);
+}
+
+.hero-btn {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.contacts a {
+    color: var(--primary-text-color);
+}
