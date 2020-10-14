@@ -5,6 +5,7 @@
 --secondary-accent: #F5F4FA;
 --white-color: #FFFFFF;
 --secondary-bgc: #2F303A;
+--secondary-text-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -54,7 +55,7 @@ a {
     color: var(--accent-color);
 }
 
-/* section */
+/* section and div */
 .section-title {
     color: var(--title-text-color);
 }
@@ -71,4 +72,24 @@ a {
 .btn-group button:hover {
     color: var(--white-color);
     background-color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--secondary-bgc);
+}
+
+.address {
+    color: var(--white-color);
+}
+
+.mail-phone a {
+    color: var(--secondary-text-color);
+}
+
+footer {
+    background-color: var(--secondary-bgc);
+}
+
+.footer-logo {
+    color: var(--white-color);
 }
