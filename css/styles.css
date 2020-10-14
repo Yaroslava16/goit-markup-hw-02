@@ -40,8 +40,7 @@ a {
 /* site-nav */
 
 .site-nav a,
-.auth-nav a,
-.list a {
+.auth-nav a {
     color: var(--title-text-color);
 }
 
@@ -62,4 +61,13 @@ a {
 
 .hero-title {
     color: var(--white-color);
+}
+
+.btn-group button {
+    color: var(--title-text-color);
+}
+
+.btn-group button:hover {
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
