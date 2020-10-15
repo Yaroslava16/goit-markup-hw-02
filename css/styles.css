@@ -56,16 +56,12 @@ a {
 }
 
 .site-nav a:hover, 
-.site-nav a:focus {
-    color: var(--accent-color);
-}
-
+.site-nav a:focus,
 .auth-nav a:hover, 
 .auth-nav a:focus {
     color: var(--accent-color);
 }
 
-/* section and div */
 .section-title {
     color: var(--title-text-color);
     font-weight: bold;
@@ -130,7 +126,6 @@ a {
 .btn-group button {
     color: var(--title-text-color);
     background-color: var(--secondary-accent);
-    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
