@@ -186,3 +186,7 @@ footer {
 .contacts a {
     color: var(--primary-text-color);
 }
+
+.site-nav a.current:visited {
+    color: var(--accent-color);
+}
